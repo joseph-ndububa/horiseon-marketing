@@ -1,12 +1,20 @@
+/* global styles start*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* global styles end */
 
+/* body styles start */
 body {
     background-color: #d9dcd6;
 }
+
+/* body styles end */
+
+/* header styles start*/
 
 header {
     padding: 20px;
@@ -46,9 +54,14 @@ a {
     text-decoration: none;
 }
 
+/* header styles end */
+
+
 p {
     font-size: 16px;
 }
+
+/* hero styles start*/
 
 .hero {
     height: 800px;
@@ -59,6 +72,10 @@ p {
     background-position: center;
 }
 
+/* hero styles end*/
+
+/* main content styles start*/
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,6 +85,7 @@ p {
     float: right;
     margin-left: 25px;
 }
+
 
 .content {
     width: 75%;
@@ -120,6 +138,10 @@ p {
     font-size: 36px;
 }
 
+/* main content styles end*/
+
+/* footer styles start */
+
 footer {
     padding: 30px;
     clear: both;
@@ -131,6 +153,4 @@ footer h2 {
     font-size: 20px;
 }
 
-#online-reputation-management {
-    overflow: auto;
-}
+/* footer styles end*/
